@@ -1,0 +1,53 @@
+baseURL: "https://odinsmods.github.io/"
+locale: "en"
+title: "Rambles"
+theme: "hugo-coder"
+paginate: 5
+
+pygmentsStyle: "monokai"
+pygmentsCodeFences: true
+pygmentsCodeFencesGuessSyntax: true
+
+markup:
+  highlight:
+    style: monokai
+    noClasses: false
+
+params:
+  author: "Odin"
+  info: "Programmer | Shader Nerd | Skyrim Mods"
+  description: "Notes on programming, shaders, and systems work"
+  keywords: "blog,developer,personal"
+  avatarurl: ""
+  faviconSVG: ""
+
+  since: 2026
+
+  colorScheme: "auto"
+  hidecolorschemetoggle: false
+
+  enableTwemoji: true
+
+  customCSS: []
+  customSCSS: []
+  customJS: []
+
+  math: false
+  katex: false
+
+  socialAppend: true
+
+menu:
+  main:
+    - name: Posts
+      weight: 10
+      url: posts/
+    - name: About
+      weight: 20
+      url: about/
+
+social:
+  - name: "github"
+    icon: "fa-brands fa-github"
+    weight: 1
+    url: "https://github.com/odinsmods/"
