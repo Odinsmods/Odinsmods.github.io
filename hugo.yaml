@@ -37,6 +37,17 @@ params:
 
   socialAppend: true
 
+  # Giscus comments (https://giscus.app) — requires GitHub Discussions
+  # enabled on the repo and the giscus app installed. Get repoID/categoryID
+  # from https://giscus.app after completing that setup.
+  giscus:
+    repo: "Odinsmods/Odinsmods.github.io"
+    repoID: "R_kgDOTKpu4A"
+    category: "General"
+    categoryID: "DIC_kwDOTKpu4M4DAbfh"
+    mapping: "pathname"
+    lang: "en"
+
 menu:
   main:
     - name: Posts
