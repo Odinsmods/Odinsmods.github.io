@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2026-07-01T16:35:26+01:00
+date = 2026-07-03T16:35:26+01:00
 title = "AceX - A minimal ACES 2.0 Fitted Curve."
 description = "A single-function, LUT-free tonemapper that fits the real ACES 2.0 SDR tonescale and adds a cheap hue-preserving path to white. Drop-in GLSL and HLSL."
 slug = "acex-tonemapper"
