@@ -11,7 +11,7 @@ externalLink = ""
 series = []
 +++
 
-[AceX Colour Sweep](/images/Sweep.png)
+![AceX Colour Sweep](/images/Sweep.png)
 
 ```glsl
 float AceXCurve(float x){
@@ -31,7 +31,7 @@ vec3 AceX(vec3 x){
 }
 ```
 
-[AceX Fitted Curve](/images/acex_fit_light.png)
+![AceX Fitted Curve](/images/acex_fit_light.png)
 
 If you have ever pasted the infamous Narkowicz `ACESFilm` fit into your post-processing shaders, you already know the appeal: one function, no lookup tables, and a filmic roll-off that stops your highlights from screaming. That fit approximates **ACES 1.0**, which is now several years behind the times. ACES 2.0 shipped a completely rebuilt output transform with a nicer tonescale and, crucially, hue handling that no longer skews your blues to cyan and your reds to orange on the way to white.
 
