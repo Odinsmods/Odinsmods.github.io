@@ -6,7 +6,7 @@ description = "A single-function, LUT-free tonemapper that fits the real ACES 2.
 slug = "acex-tonemapper"
 authors = []
 tags = ["shaders", "tonemapping", "color-science", "aces", "glsl", "hlsl"]
-categories = [Tone Mapping Operator]
+categories = ["Tone Mapping Operator"]
 externalLink = ""
 series = []
 +++
